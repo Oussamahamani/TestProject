@@ -34,7 +34,7 @@ app.get('/',async(req,res)=>{
   try{
     const finalResults = await fechData()
     console.log( finalResults)
-    
+    res.send({data:'success'})
   }
   catch(err){
   console.log('error')
