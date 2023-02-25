@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "express": "^4.18.2",
+    "nlpcloud": "^1.0.40"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
